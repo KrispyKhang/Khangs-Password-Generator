@@ -18,6 +18,16 @@ function getPasswordCriteria() {
   }
 }
 
+confirmNumber = confirm("Will the password contain numbers?");
+confirmCharacter = confirm("Will the password contian special characters?");
+confirmUppercase = confirm("Will this password contain Uppercase letters?");
+confirmLowercase = confirm("WIll the password contain Lowercase letters?");
+
+if (!confirmCharacter && !confirmNumber && !confirmUppercase && !confirmLowercase) {
+  alert("You must choose at least one criteria!");
+  return;
+}
+
 
 
 // Get references to the #generate element
