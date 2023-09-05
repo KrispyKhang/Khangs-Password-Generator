@@ -1,7 +1,7 @@
 ## 03 JavaScript: Password Generator
 
 * [Github Repository](https://github.com/KrispyKhang/Khangs-Password-Generator)
-* [Deployed Github]()
+* [Deployed Github](https://krispykhang.github.io/Khangs-Password-Generator/)
 
 ![](./Assets/Images/1.png)
 
@@ -39,7 +39,7 @@ THEN the password is either displayed in an alert or written to the page
 ## Summary
 * HTML, CSS, & Javascript were used to create this Password Generator Site.
 * This module 3 assignment emphasizes the use case of Javascript on making a webpage have purpose and function.
-* See screen shots below for the finished product.
+* See screenshots below for the finished product.
 
 ## Features
  * A Generate button:
@@ -48,12 +48,16 @@ THEN the password is either displayed in an alert or written to the page
 
 ![](./Assets/Images/2.png)
 
- * Prompt Pop-up:
+ * Prompt pop up:
     * A series of prompts will pop up asking users the number of characters in their passwords
     that they want ranged from 8 to 128 characters.
     * Then followed by prompts to see if users want special characters, lowercase, uppercase, and/ or numbers in the password.
 
 ![](./Assets/Images/3.png)
+
+ * Ta-da! Password is generated based on user preference.
+
+![](./Assets/Images/1.png)
 
 
 
