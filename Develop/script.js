@@ -31,6 +31,12 @@ if (!confirmCharacter && !confirmNumber && !confirmUppercase && !confirmLowercas
 generatePassword() ;
 }
 
+// function to generate password based on user input
+function generatePassword() {
+  var choices = "";
+
+
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
