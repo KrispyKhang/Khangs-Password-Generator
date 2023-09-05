@@ -1,10 +1,23 @@
 // Assignment code here
+
 // user input variables
 var enter;
 var confirmNumber;
 var confirmCharacter;
 var confirmUppercase;
 var confirmLowercase;
+
+// function to get user input for password criteria
+// *Watched a couple of youtube videos 
+function getPasswordCriteria() {
+  enter = parseInt(prompt("Select the amount of characters you would like your password. Choose between 8 and 128"));
+
+  if (!enter || enter <8 || enter > 128) {
+    alert("Please choose between 8 and 128 characters");
+    return;
+  }
+}
+
 
 
 // Get references to the #generate element
