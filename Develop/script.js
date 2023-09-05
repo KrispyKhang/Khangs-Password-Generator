@@ -44,11 +44,11 @@ function generatePassword() {
   var password = "";
 
   for (var i = 0; i < enter; i++) {
-    var randomIndex = Math.floor(math.random() * choices.length);
+    var randomIndex = Math.floor(Math.random() * choices.length);
     password += choices.charAt(randomIndex);
   }
 
-  document.querySelector("password").textContent = password;
+  document.querySelector("#password").textContent = password;
 }
 
 // Event Listener for the generate button
