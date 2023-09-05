@@ -16,7 +16,7 @@ function getPasswordCriteria() {
     alert("Please choose between 8 and 128 characters");
     return;
   }
-}
+
 
 confirmNumber = confirm("Will the password contain numbers?");
 confirmCharacter = confirm("Will the password contian special characters?");
@@ -28,6 +28,8 @@ if (!confirmCharacter && !confirmNumber && !confirmUppercase && !confirmLowercas
   return;
 }
 
+generatePassword() ;
+}
 
 
 // Get references to the #generate element
