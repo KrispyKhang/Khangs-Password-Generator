@@ -48,6 +48,7 @@ function generatePassword() {
     password += choices.charAt(randomIndex);
   }
 
+  document.querySelector("password").textContent = password;
 }
 
 // Get references to the #generate element
