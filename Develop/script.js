@@ -32,9 +32,21 @@ generatePassword() ;
 }
 
 // function to generate password based on user input
+// Used Google to understand what types of arrays i'm adding 
 function generatePassword() {
   var choices = "";
 
+  if (confirmCharacter) choices += "!@#$%^&*()_+}{|:;'><?/";
+  if (confirmNumber) choices += "123456789";
+  if (confirmLowercase) choices += "abcdefghijklmnopqrstuvwxyz";
+  if (confirmUppercase) choices += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+  var password = "";
+
+  for (var i = 0; i < enter; i++) {
+    var randomIndex = Math.floor(math.random() * choices.length);
+    password += choices.charAt(randomIndex);
+  }
 
 }
 
